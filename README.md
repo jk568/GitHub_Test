@@ -27,16 +27,16 @@ row | 2bitHistory | 2BC[0] 2BC[1] 2BC[2] 2BC[3] | Predict |  True |
 009 | 2bitH=0     |   ST     SN     SN     SN   | Pred=T  |   T   |  
 010 | 2bitH=1     |   ST     SN     SN     SN   | Pred=N  |   N   |  
 011 | 2bitH=2     |   ST     SN     SN     SN   | Pred=N  |   N   |  
+    
+    
+系統流程：    
+1.讀擋 ,Q01_input_2bitH.in  
+2.初始陣列設定  
+3.做預測  
+4.根據結果,更新陣列,  
+5.迴圈,重複 3. 4. ,直到結束,  
   
-  
-系統流程：  
-1. 讀擋 ,Q01_input_2bitH.in  
-2. 初始陣列設定  
-3. 做預測  
-4. 根據結果,更新陣列,  
-5. 迴圈,重複 3. 4. ,直到結束,  
-  
-  
+     
 程式註解:  
 在主程式P01_code_2bitHistory.py中,以  
 #-----------------------------------------------------------  
