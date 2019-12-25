@@ -91,7 +91,10 @@ def Fill_RAT(RAT_Fx,RSx):
     elif RAT_Fx=='F4':
         RAT_F4 = RSx
     #print('---fill rat<<<')
-
+  
+# --------------------------------------------------------------------------  
+# 尋找 RS 是否在 RAT ,    
+# --------------------------------------------------------------------------      
 def Search_RSinRAT(RSi):
     if RAT_F1 == RSi:
         return 1
@@ -103,7 +106,10 @@ def Search_RSinRAT(RSi):
         return 4
     else:
         return 0
-
+  
+# --------------------------------------------------------------------------  
+# 將 RSx 以數值取代 ,        
+# --------------------------------------------------------------------------     
 def Replace_RS(RS_str1,RSv_float):
     global ADD_RS1
     global ADD_RS2
@@ -116,7 +122,10 @@ def Replace_RS(RS_str1,RSv_float):
     ADD_RS3 = ADD_RS3.replace(RS_str1, str_r)
     MULT_RS4 = MULT_RS4.replace(RS_str1, str_r)
     MULT_RS5 = MULT_RS5.replace(RS_str1, str_r)
-
+  
+# --------------------------------------------------------------------------  
+# 如果 RSx 都是數值, 計算出結果, 並更新 RSx RAT,  
+# --------------------------------------------------------------------------      
 def Clear_RS(ADDMULT_RSx,RSx):
     global ADD_RS1
     global ADD_RS2
