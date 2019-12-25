@@ -40,12 +40,13 @@ row | 2bitHistory | 2BC[0] 2BC[1] 2BC[2] 2BC[3] | Predict |  True |
 程式註解:  
 在主程式P01_code_2bitHistory.py中,以  
 #-----------------------------------------------------------  
-#    
+# 註解  
 #-----------------------------------------------------------  
 表示註解,  
   
   
-參考:    Lecture5 (上課驗收日：1024) & Project 1  
-         09-2bit history predictor example [Computer Arch - Branch]  
+參考:  
+Lecture5 (上課驗收日：1024) & Project 1    
+09-2bit history predictor example [Computer Arch - Branch]    
   
   
